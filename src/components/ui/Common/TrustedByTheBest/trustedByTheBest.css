@@ -1,0 +1,40 @@
+@keyframes logoSlider {
+  0% {
+    transform: translateX(0%);
+  }
+  16% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(-100%);
+  }
+  36% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-200%);
+  }
+  56% {
+    transform: translateX(-200%);
+  }
+  60% {
+    transform: translateX(-300%);
+  }
+  76% {
+    transform: translateX(-300%);
+  }
+  80% {
+    transform: translateX(-400%);
+  }
+  96% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(-500%);
+  }
+}
+
+.animate-logoSlider {
+  animation: logoSlider 5s infinite;
+  animation-timing-function: steps(1, end);
+}

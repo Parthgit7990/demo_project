@@ -1,0 +1,40 @@
+.group > div {
+  margin-top: 2px;
+}
+
+.submenu-group > a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -12px;
+  width: 20px;
+  height: 100%;
+  z-index: 1;
+}
+
+.submenu-group ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 20px;
+  height: 100%;
+  z-index: 1;
+}
+
+.submenu-group ul {
+  margin-left: -2px;
+}
+
+.group ul, .submenu-group ul {
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+.group ul {
+  z-index: 30;
+}
+
+.submenu-group ul {
+  z-index: 40;
+}

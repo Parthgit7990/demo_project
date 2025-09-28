@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "./base.css";
+@import "./components.css";
+@import "./utilities.css";
+@import "../components/view/Header/header.css";
+@import "../components/view/Footer/footer.css";
+
+body {
+    font-family: 'Barlow', Helvetica, Arial, Lucida, sans-serif;
+}
